@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сторинж</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <style>
+      html {
+        font-family: "Roboto", sans-serif;
+        background-color: aquamarine;
+      }
+
+      h1 {
+        color: yellow;
+      }
+
+      h2 {
+        color: red;
+      }
+
+      footer {
+        color: brown;
+      }
+    </style>
+
+    <script>
+      let name = prompt("Как Вас зовут?");
+
+      function func() {
+        alert(`Привет, ${name}`);
+        return;
+      }
+
+      func();
+    </script>
+    <!--Шапка сайта-->
+    <header>
+      <img src="./images/logo.svg" alt="Логотип компании" />
+
+      <img src="./images/name.svg" alt="" />
+
+      <h1>Обслуживание инженерных систем</h1>
+
+      <nav>
+        <ul>
+          <li><a class="uslugi" href="">Услуги</a></li>
+          <li><a class="system" href="">Системы</a></li>
+          <li><a class="company" href="">О компании</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Основная часть сайта-->
+    <main>
+      <section>
+        <h2>УСЛУГИ</h2>
+
+        <ul>
+          <li class="uslugi-1">Проектирование</li>
+          <li class="uslugi-2">Монтаж</li>
+          <li class="uslugi-3">Ввод в эксплуатацию</li>
+          <li class="uslugi-4">Техническое обслуживание</li>
+          <li class="uslugi-5">Ремонтно-восстановительные работы</li>
+        </ul>
+
+        <h2>ИНЖЕНЕРНЫЕ <br />СИСТЕМЫ</h2>
+
+        <p>
+          Системы электроснабжения зданий <br />
+          Системы электроснабжения центров обработки данных <br />
+          Системы гарантированного электроснабжения <br />
+          Системы бесперебойного электроснабжения <br />
+          Системы резервирования электроснабжения <br />
+          Слаботочные кабельные системы <br />
+          Системы приточной и вытяжной вентиляции, дымоудаления <br />
+          Системы холодоснабжения <br />
+          Системы пожарной сигнализации и пожаротушения <br />
+          Системы отопления, горячего и холодного водоснабжения, водоотведения
+          <br />
+          Системы контроля доступа <br />
+          Системы видеонаблюдения <br />
+          Системы автоматизации и управления инженерными системами <br />
+          Системы диспетчеризации
+        </p>
+
+        <h2>О КОМПАНИИ</h2>
+
+        <p>
+          Компания ООО «СТОРИНЖ» образована в 2021 году. Основным направлением
+          деятельности является проектирование, монтаж и техническое
+          обслуживание современных инженерных систем, систем автоматизации,
+          диспетчеризации и связи, комплексных систем противопожарной
+          безопасности зданий и сооружений различного назначения. Основной штат
+          сотрудников компании составляют высококвалифицированные специалисты,
+          имеющие большой опыт работы, необходимые допуски и сертификаты.
+        </p>
+      </section>
+    </main>
+
+    <!--Подвал сайта-->
+    <footer>
+      <address>
+        <p>storinj@yandex.ru</p>
+        <p>
+          108807, г. Москва, Первомайское п., д. Жуковка, Вишнёвая ул., д. 80б,
+          помещение 4
+        </p>
+        <a
+          href="https://yandex.ru/maps/213/moscow/house/vishnyovaya_ulitsa_80b/Z04YdA9pTUwOQFtvfXlwcHhrZQ==/?ll=37.289499%2C55.511481&z=17.16"
+          >Наш адрес</a
+        >
+      </address>
+    </footer>
+  </body>
+</html>
